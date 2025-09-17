@@ -9,7 +9,7 @@ void main() {
 
   // Tampilkan riwayat menggunakan perulangan
   tampilkanRiwayat(riwayat);
-}
+} 
 
 void hitungBMI(double tinggiCm, double beratKg, List<Map<String, dynamic>> riwayat) {
   // Konversi tinggi dari cm ke m
