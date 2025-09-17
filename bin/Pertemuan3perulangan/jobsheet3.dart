@@ -1,12 +1,12 @@
 void main() {
   print("=== Program Percabangan & Perulangan ===");
 
-  // Hitung faktorial dari 5
+  // 1. Faktorial dari 5
   int n = 5;
   int hasilFaktorial = faktorial(n);
   print("\nFaktorial dari $n adalah $hasilFaktorial");
 
-  // Cek bilangan prima untuk angka 17 dan 18
+  // 2. Cek bilangan prima untuk 17 dan 18
   int angka1 = 17;
   int angka2 = 18;
   print("\nApakah $angka1 bilangan prima? ${cekPrima(angka1) ? "Ya" : "Tidak"}");
